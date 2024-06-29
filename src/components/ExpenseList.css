@@ -1,0 +1,64 @@
+.expense-list {
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .filter-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-group label {
+    font-weight: bold;
+  }
+  
+  .filter-group select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .expense-details {
+    flex: 1;
+  }
+  
+  .expense-details span {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .expense-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .expense-actions button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .expense-actions button:hover {
+    background-color: #ddd;
+  }
+  
+  .total-expense {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
